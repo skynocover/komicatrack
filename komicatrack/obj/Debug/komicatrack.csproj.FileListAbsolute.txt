@@ -1,0 +1,17 @@
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\bin\Debug\komicatrack.exe.config
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\bin\Debug\komicatrack.exe
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\bin\Debug\komicatrack.pdb
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\MainWindow.g.cs
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\App.g.cs
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack_MarkupCompile.cache
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack_MarkupCompile.lref
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\MainWindow.baml
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack.g.resources
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack.Properties.Resources.resources
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack.csproj.GenerateResource.Cache
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack.exe
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack.pdb
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\komicatrack.csproj.CoreCompileInputs.cache
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\story.g.cs
+C:\Users\Eric\Desktop\CODE\komicatrack\komicatrack\obj\Debug\story.baml

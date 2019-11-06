@@ -1,0 +1,109 @@
+﻿<Window x:Name="komicatrack" x:Class="komicatrack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:komicatrack"
+        mc:Ignorable="d"
+        Title="KomicaTrack" Closed="komicatrack_Closed" Icon="if_Location01_928415.ico" WindowState="Minimized" WindowStartupLocation="CenterScreen" Width="830" Height="792" Loaded="komicatrack_Loaded">
+    <Grid Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="130"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="68"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="網址" Margin="0" Grid.Row="1" HorizontalAlignment="Left" Width="586" Height="60">
+            <StackPanel Margin="0">
+                <TextBox x:Name="website_box" Height="35" TextWrapping="Wrap" Text="在這裡輸入網址" FontSize="22" GotFocus="website_box_GotFocus" Margin="0"/>
+            </StackPanel>
+        </GroupBox>
+        <Button x:Name="refresh" Content="更新頁面" Margin="20,5,20,0" Click="refresh_Click" Grid.Column="1" Grid.Row="1" FontSize="20" Height="35"/>
+        <GroupBox x:Name="rsp1_box" Header="跟串一 " Margin="0" Foreground="Black" Grid.Row="2">
+            <StackPanel Margin="5,0,0,0" Height="102" VerticalAlignment="Top">
+                <Label x:Name="title_label1" Content="標題" Height="38" Background="#FFF3DD76" Margin="0" FontSize="18" VerticalContentAlignment="Center"/>
+                <Label x:Name="rspt_label1" Content="最新回應時間" Height="38" FontSize="18" Background="#FF43DAC6" Margin="0,10,0,0" VerticalContentAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="rsp2_box" Header="跟串二" Margin="0" Grid.Row="3">
+            <StackPanel Margin="5,0,0,0">
+                <Label x:Name="title_label2" Content="標題" Height="38" Background="#FFF3DD76" Margin="0" FontSize="18" VerticalContentAlignment="Center"/>
+                <Label x:Name="rspt_label2" Content="最新回應時間" Height="38" FontSize="18" Background="#FF43DAC6" Margin="0,10,0,0" VerticalContentAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="rsp3_box" Header="跟串三" Margin="0" Grid.Row="4">
+            <StackPanel Margin="5,0,0,0">
+                <Label x:Name="title_label3" Content="標題" Height="38" Background="#FFF3DD76" Margin="0" FontSize="18" VerticalContentAlignment="Center"/>
+                <Label x:Name="rspt_label3" Content="最新回應時間" Height="38" FontSize="18" Background="#FF43DAC6" Margin="0,10,0,0" VerticalContentAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="rsp4_box" Header="跟串四" Grid.Row="5" Margin="0">
+            <StackPanel Margin="5,0,0,0">
+                <Label x:Name="title_label4" Content="標題" Height="38" Background="#FFF3DD76" Margin="0" FontSize="18" VerticalContentAlignment="Center"/>
+                <Label x:Name="rspt_label4" Content="最新回應時間" Height="38" FontSize="18" Background="#FF43DAC6" Margin="0,10,0,0" VerticalContentAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="rsp5_box" Header="跟串五" Margin="0" Grid.Row="6">
+            <StackPanel Margin="5,0,0,0">
+                <Label x:Name="title_label5" Content="標題" Height="38" Background="#FFF3DD76" Margin="0" FontSize="18" VerticalContentAlignment="Center"/>
+                <Label x:Name="rspt_label5" Content="最新回應時間" Height="38" FontSize="18" Background="#FF43DAC6" Margin="0,10,0,0" VerticalContentAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="操作" Margin="0" Grid.Column="1" Grid.Row="2">
+            <StackPanel Margin="0" Width="100" Height="90">
+                <Button x:Name="gowebsite1" Content="前往" Height="38" Margin="0" Width="90" Click="gowebsite1_Click" FontSize="18"/>
+                <Button x:Name="del1" Content="刪除" Height="38" Width="90" Margin="0,10,0,0" Click="del1_Click" FontSize="18"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="操作" Grid.Row="3" Grid.Column="1">
+            <StackPanel Margin="0" Width="100" Height="90">
+                <Button x:Name="gowebsite3" Content="前往" Height="38" Margin="0" Width="90" Click="gowebsite2_Click" FontSize="18"/>
+                <Button x:Name="del2" Content="刪除" Height="38" Width="90" Margin="0,10,0,0" Click="del2_Click" FontSize="18"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="操作" Grid.Row="4" Grid.Column="1">
+            <StackPanel Margin="0" Width="100" Height="90">
+                <Button x:Name="gowebsite2" Content="前往" Height="38" Margin="0" Width="90" Click="gowebsite3_Click" FontSize="18"/>
+                <Button x:Name="del3" Content="刪除" Height="38" Width="90" Margin="0,10,0,0" Click="del3_Click" FontSize="18"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="操作" Grid.Row="5" Grid.Column="1">
+            <StackPanel Margin="0" Width="100" Height="90">
+                <Button x:Name="gowebsite4" Content="前往" Height="38" Margin="0" Width="90" Click="gowebsite4_Click" FontSize="18"/>
+                <Button x:Name="del4" Content="刪除" Height="38" Margin="0,10,0,0" Click="del4_Click" Width="90" FontSize="18"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="操作" Grid.Row="6" Grid.Column="1">
+            <StackPanel Margin="0" Width="100" Height="90">
+                <Button x:Name="gowebsite5" Content="前往" Height="38" Click="gowebsite5_Click" Margin="0" Width="90" FontSize="18"/>
+                <Button x:Name="del5" Content="刪除" Height="38" Margin="0,10,0,0" Click="del5_Click" Width="90" FontSize="18"/>
+            </StackPanel>
+        </GroupBox>
+        <Menu x:Name="topmenu" Margin="0" FontSize="22" Grid.ColumnSpan="2">
+            <Button x:Name="setbrowser" Content="瀏覽器設定" Click="setbrowser_Click" FontSize="14" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <Button x:Name="history" Content="更新日誌" Width="74" Height="22" FontSize="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="story_Click"/>
+        </Menu>
+        <GroupBox x:Name="rsp6_box" Header="跟串六" Margin="0" Grid.Row="7">
+            <StackPanel Margin="5,0,0,0">
+                <Label x:Name="title_label6" Content="標題" Height="38" Background="#FFF3DD76" Margin="0" FontSize="18" VerticalContentAlignment="Center"/>
+                <Label x:Name="rspt_label6" Content="最新回應時間" Height="38" FontSize="18" Background="#FF43DAC6" Margin="0,10,0,0" VerticalContentAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="操作" Grid.Row="7" Grid.Column="1">
+            <StackPanel Margin="0" Width="100" Height="90">
+                <Button x:Name="gowebsite6" Content="前往" Height="38" Click="gowebsite6_Click" Margin="0" Width="90" FontSize="18"/>
+                <Button x:Name="del6" Content="刪除" Height="38" Margin="0,10,0,0" Click="del6_Click" Width="90" FontSize="18"/>
+            </StackPanel>
+        </GroupBox>
+        <Button x:Name="str_btm" Content="新增" Click="str_btm_Click" Margin="600,5,10,0" HorizontalContentAlignment="Center" Grid.Row="1" FontSize="20" Height="35"/>
+    </Grid>
+</Window>
