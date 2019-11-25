@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*Copyright (C) 2018-2019 EricWu <skynocover@Gmail.com> 
+See COPYING for license details.*/
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
